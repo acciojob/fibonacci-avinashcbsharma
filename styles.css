@@ -1,1 +1,30 @@
-/*  your css code here. If applicable */
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}     
+.container{
+	margin: auto;
+	width: 800px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: lightgray;
+	border: 1px solid gray;
+
+}
+#btn{
+	padding: 10px;
+	color:#ffff;
+	background-color: rgb(7, 53, 32);
+	border-radius: 10px;
+}
+#btn:hover{
+	background-color: blanchedalmond;
+	color: darkred;
+	font-weight: 600;
+	padding: 8px;
+}       
